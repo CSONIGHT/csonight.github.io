@@ -85,7 +85,7 @@ a:after {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 500px;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -110,7 +110,7 @@ a:after {
 	color: white;
 	font-size: 30px;
 	font-weight: 100;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Roboto', serif;
     font-style: oblique;
 }
 
