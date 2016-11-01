@@ -7,19 +7,19 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>MINIMAL - Free Bootstrap 3 Theme</title>
+    <title>CSO NIGHT - OGP SUMMIT 2016</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="assets/timelineMe/jquery.timelineMe.css">
     <link href="assets/css/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
+<link rel="stylesheet" type="text/css" href="assets/timelineMe/jquery.timelineMe.css">
     <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 
 
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -38,15 +38,14 @@
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="index.html#home">Minimal</a></h1>
+			<h1 class="logo"><a href="index.html#home">CSO Night</a></h1>
 			<i class="icon-remove menu-close"></i>
 			<a href="#home" class="smoothScroll">Home</a>
 			<a href="#about" class="smoothScroll">About</a>
-			<a href="#portfolio" class="smoothScroll">Portfolio</a>
+			<a href="#portfolio" class="smoothScroll">Where</a>
 			<a href="#contact" class="smoothScroll">Contact</a>
 			<a href="#"><i class="icon-facebook"></i></a>
 			<a href="#"><i class="icon-twitter"></i></a>
-			<a href="#"><i class="icon-dribbble"></i></a>
 			<a href="#"><i class="icon-envelope"></i></a>
 		</div>
 
@@ -91,8 +90,8 @@
 					<p>My passion is turning good ideas and products into eye-catching sites.</p>
 					<p>Sometimes I blog about design and web trends. Also I share links and my thoughts on <a href="http://twitter.com/BlackTie_co">Twitter</a>. Need a free handsome bootstrap theme? <a href="http://blacktie.co">Done!</a></p>
 					<p>I'm available for freelance jobs. Contact me now.</p>
-					<p><button type="button" class="btn btn-warning">I HAVE A FREELANCE JOB</button></p>
-          <div id="timeline-container-label-picto" type="text"></div>
+					<p><button type="button" class="btn btn-warning">REGISTER</button></p>
+          <div id="timeline" type="text"></div>
 
 				</div>
 			</div>
@@ -100,39 +99,20 @@
 	</div><!-- /f -->
 
 
-	<!-- ========== CAROUSEL SECTION ========== -->
+	<!-- ========== WHERE SECTION ========== -->
 	<section id="portfolio" name="portfolio"></section>
 	<div id="f">
-		<div class="container">
-			<div class="row centered">
-				<h3>SOME PROJECTS</h3>
+
+				<h3>Where ?</h3>
 				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 
-				<div class="col-lg-6 col-lg-offset-3">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner">
-							<div class="item active centered">
-								<img class="img-responsive" src="assets/img/c1.png" alt="">
-							</div>
-							<div class="item centered">
-								<img class="img-responsive" src="assets/img/c2.png" alt="">
-							</div>
-							<div class="item centered">
-								<img class="img-responsive" src="assets/img/c3.png" alt="">
-							</div>
-						</div>
-						<br>
-						<br>
-						<ol class="carousel-indicators">
-						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-						</ol>
-					</div>
-				</div><!-- col-lg-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
+          <div id="mapid"></div>
+          <div class="col-lg-6 col-lg-offset-3">
+            <p>78 rue Compans<br/>75019 Paris<br/>
+            <p><a href="http://www.volumesparis.org">volumesparis.org</a></p>
+          </div>
+				<!-- col-lg-8 -->
+
 	</div>	<!-- f -->
 
 	<!-- ========== CONTACT SECTION ========== -->
@@ -157,40 +137,57 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="assets/timelineMe/jquery/jquery.min.js"></script>
-  <script type="text/javascript" src="assets/timelineMe/jquery.timelineMe.js"></script>
+
 	<script src="assets/js/classie.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
 	<script src="assets/js/main.js"></script>
-  <script> $('#timeline-container-label-picto').timelineMe({
-                items: [
-                  {
-                    type: 'smallItem',
-                    label: '8pm',
-                    picto: '<img src="assets/img/doormat.png"/>',
-                    shortContent: 'Welcoming schmoozing'
-                  },
-                  {
-                    type: 'smallItem',
-                    label: '9pm',
-                    picto: '<img src="/assets/img/speaking.png" />',
-                    shortContent: '<strong>Announcements :</strong> The Open Culture Foundation will launch its Civic Hack News website. OpenDemocracyNow! will kick off the OGP Toolbox hackathon.'
-                  },
-                  {
-                    type: 'smallItem',
-                    label: '9:30pm',
-                    picto: '<img src="assets/img/bolt.png" />',
-                    shortContent: '<strong>Lighning talks :</strong> Innovation with a purpose : the core values of civic technologies'
-                  },
-                  {
-                    type: 'smallItem',
-                    label: '1O:15pm',
-                    picto: '<img src="assets/img/doormat.png" />',
-                    shortContent: 'Drinks, food and music !'
-                  },
-                ]
-              });</script>
+  <script type="text/javascript" src="assets/timelineMe/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="assets/timelineMe/jquery.timelineMe.js"></script>
+<script> $('#timeline').timelineMe({
+              items: [
+                {
+                  type: 'smallItem',
+                  label: '8pm',
+                  picto: '<img src="assets/img/doormat.png"/>',
+                  shortContent: 'Meeting & schmoozing'
+                },
+                {
+                  type: 'smallItem',
+                  label: '9pm',
+                  picto: '<img src="assets/img/speaking.png" />',
+                  shortContent: '<strong>Announcements :</strong> The Open Culture Foundation will launch its Civic Hack News website. OpenDemocracyNow! will kick off the OGP Toolbox hackathon.'
+                },
+                {
+                  type: 'smallItem',
+                  label: '9:30pm',
+                  picto: '<img src="assets/img/bolt.png" />',
+                  shortContent: '<strong>Lightning talks :</strong> Innovation with a purpose : the core values of civic technologies'
+                },
+                {
+                  type: 'smallItem',
+                  label: '1O:15pm',
+                  picto: '<img src="assets/img/wine.png" />',
+                  shortContent: 'Drinks, food and music !'
+                },
+
+              ]
+            });</script>
+            <script>var mymap = L.map('mapid').setView([48.8680,2.3619, -0.09], 13);
+
+            L.tileLayer('https://api.mapbox.com/styles/v1/plrolle/ciuzvsdhp01et2inojwqrjzk5/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGxyb2xsZSIsImEiOiJjaXV6dnI3ZnkwMGF2Mm9tODdtMTZiMHluIn0.kI-HYCjKam3XGipU4Gd3lg', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18,
+    id: 'your.mapbox.project.id',
+    accessToken: 'pk.eyJ1IjoicGxyb2xsZSIsImEiOiJjaXV6dnI3ZnkwMGF2Mm9tODdtMTZiMHluIn0.kI-HYCjKam3XGipU4Gd3lg'
+}).addTo(mymap);
+
+var volumes = L.marker([48.87960,2.39220]).addTo(mymap).bindPopup("<b>VOLUMES</b><br>78 rue Compans").openPopup();
+    ogp = L.marker([48.86408,2.29269]).addTo(mymap) .bindPopup("<b>OGP SUMMIT</b><br>Palais d'Iéna");
+
+
+
+</script>
 
 </body>
 </html>
