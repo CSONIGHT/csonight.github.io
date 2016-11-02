@@ -7,8 +7,10 @@
  * URL: http://blacktie.co
  */
 
+/*added css by virgile*/
+.blackiconcolor {color:black;}
 body {
-  background-color: #f2f2f2;
+  background-color: #46B424;
     font-family: 'Roboto', serif;
     font-weight: 300;
     font-size: 16px;
@@ -125,7 +127,7 @@ a:after {
 
 #f {
 	background: #1a1a68;
-	padding-top: 70px;
+	padding-top: 100px;
 	padding-bottom: 70px;
 	text-align: center
 }
@@ -155,9 +157,10 @@ a:after {
 /* Footer Wrap */
 
 #f2 {
-	background: #27ae60;
+	background: #46B424;
 	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-bottom: 0px;
+  margin-bottom: -20px;
 	text-align: center
 }
 
