@@ -11,17 +11,21 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="assets/css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="assets/css/style.css"> <!-- Resource style -->
     <link href="assets/css/main.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="assets/timelineMe/jquery.timelineMe.css">
+
+  <script src="assets/js/modernizr.js"></script> <!-- Modernizr -->
     <script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
-
-
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
@@ -43,7 +47,7 @@
 			<a href="#home" class="smoothScroll">Home</a>
 			<a href="#about" class="smoothScroll">What ?</a>
       <a href="#when" class="smoothScroll">When ?</a>
-			<a href="#portfolio" class="smoothScroll">Where ?</a>
+			<a href="#where" class="smoothScroll">Where ?</a>
 			<a href="#contact" class="smoothScroll">Contact</a>
 			<a href="#"><i class="icon-facebook"></i></a>
 			<a href="mailto:contact@democracyos.eu"><i class="icon-envelope"></i></a>
@@ -56,7 +60,7 @@
 
 
 	<!-- ========== HEADER SECTION ========== -->
-	<section id="home" name="home"></section>
+	<section id="home" name="home">
 	<div id="headerwrap">
 		<div class="container">
 			<!-- ========== 	<div class="logo">
@@ -74,11 +78,11 @@
 			</div>
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
-
+</section>
 
 
 	<!-- ========== ABOUT SECTION ========== -->
-	<section id="about" name="about"></section>
+	<section id="about" name="about">
 	<div id="f">
 		<div class="container">
 			<div class="row">
@@ -95,53 +99,109 @@
 			</div>
 		</div><!-- /container -->
 	</div><!-- /f -->
+  </section>
+  <section id="when" class="cd-container">
+      <div id="f2">
+        <div class="container">
+          <div class="row">
+            <h3>When ?</h3>
+            <p class="centered"><i class="fa fa-circle blackiconcolor"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+            <p>December 7th, 2016</p>
+          </div>
 
-  <section id="when" name="when"></section>
-  <div id="f2">
-    <div class="container">
-      <div class="row">
-        <h3>When ?</h3>
-        <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+          </div>
+      </div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="assets/img/business-1.png" alt="Picture">
+			</div> <!-- cd-timeline-img -->
 
-        <div class="col-lg-6 col-lg-offset-3">
-          <p>December 7th, 2016</p>
-          <div id="timeline" type="text"></div>
-        </div>
+			<div class="cd-timeline-content">
+				<h2>Meeting and schmoozing</h2>
+				<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p> -->
+				<!-- <a href="#0" class="cd-read-more">Read more</a> -->
+				<span class="cd-date">8 pm</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="assets/img/graphic.png" alt="Movie">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Reports</h2>
+				<p>The Open Culture Foundation will announce the launch of its Civic Hack News website. ODN! will kick off the OGP Toolbox hackathon.</p>
+				<!-- <a href="#0" class="cd-read-more">Read more</a> -->
+				<span class="cd-date">9 pm</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="assets/img/technology.png" alt="Picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Lightning talks :</h2>
+				<p>Innovation with a purpose : the core values of civic technologies.</p>
+				<!-- <a href="#0" class="cd-read-more">Read more</a> -->
+				<span class="cd-date">9:30 pm</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="assets/img/people.png" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Drinks, food and music !</h2>
+				<!-- <p>Innovation with a purpose : the core values of civic technologies.</p> -->
+				<!-- <a href="#0" class="cd-read-more">Read more</a> -->
+				<span class="cd-date">10:15 pm</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+    <div>
+  </div>
+</section>
+	<!-- ========== WHERE SECTION ========== -->
+	<section id="where" name="Where">
+	<div id="f">
+    <h3>Where ?</h3>
+		<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+    <div class="row">
+      <div class="col-sm-9">
+        <div id="mapid"></div>
+      </div>
+      <div class="col-sm-3">
+        <a href="http://www.volumesparis.org"><img src="assets/img/volumes.png"></a>
+        <p><a href="http://www.volumesparis.org">Volumes Coworking</a></p>
+        <img src="assets/img/metroparis.png">
+        <p>Metro Line 11 - Place des fêtes <br>or Line 6bis - Botzaris</p>
+        <p>78 rue Compans<br/>75019 Paris<br/>
+        <p><a href="http://www.volumesparis.org">volumesparis.org</a></p>
       </div>
     </div>
-  </div>
-	<!-- ========== WHERE SECTION ========== -->
-	<section id="portfolio" name="portfolio"></section>
-	<div id="f">
-
-				<h3>Where ?</h3>
-				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-
-          <div id="mapid"></div>
-          <div class="col-lg-6 col-lg-offset-3">
-            <p>78 rue Compans<br/>75019 Paris<br/>
-            <p><a href="http://www.volumesparis.org">volumesparis.org</a></p>
-          </div>
-				<!-- col-lg-8 -->
-
-	</div>	<!-- f -->
-
-	<!-- ========== CONTACT SECTION ========== -->
-	<section id="contact" name="contact"></section>
-	<div id="f">
-		<div class="container">
-			<div class="row">
-				<h3>CONTACT US</h3>
-				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-
-				<div class="col-lg-6 col-lg-offset-3">
-					<p>+33 647897493</p>
-					<p>contact@democracyos.eu</p>
-
-				</div>
-			</div>
-		</div>
 	</div>
+</section>
+	<!-- ========== CONTACT SECTION ========== -->
+  <section id="contact" name="contact">
+  <div id="f">
+    <div class="container">
+      <div class="row">
+        <h3>Contact us !</h3>
+        <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+        <p>+33 647897493</p>
+        <a href="mailto:contact@opendemocracynow.net">contact@opendemocracynow.net</a>
+        <br><br>
+        <p><a href="https://www.facebook.com/opendemnow/?fref=ts">Facebook</a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/opendemnow">Twitter</a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/opendemocracynow">Github</a></p>
+        <p>Icons made by <a href="http://www.freepik.com/">Freepik</a> from www.flaticon.com</p>
+        <p>Thanks autor for the photo of Paris</p>
+      </div>
+    </div><!-- /container -->
+  </div><!-- /f -->
+  </section>
 
 
 
@@ -149,10 +209,13 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
+    <script src="assets/js/timeline.js"></script> <!-- Resource jQuery -->
+      <script src="assets/js/modernizer.js"></script> <!-- Resource jQuery -->
 	<script src="assets/js/classie.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
 	<script src="assets/js/main.js"></script>
+
   <script type="text/javascript" src="assets/timelineMe/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="assets/timelineMe/jquery.timelineMe.js"></script>
 <script> $('#timeline').timelineMe({
