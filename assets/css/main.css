@@ -165,7 +165,7 @@ a:after {
 }
 
 #f2 h3 {
-	color: white;
+	color: #1a1a68;
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -173,13 +173,13 @@ a:after {
 
 #f2 i {
 	font-size: 8px;
-	color: #fff;
+	color: #1a1a68;
     padding: 3px;
 }
 
 #f2 p {
 	font-size: 20px;
-	color: #f2f2f2;
+	color: #1a1a68;
 }
 
 #f2 img {
