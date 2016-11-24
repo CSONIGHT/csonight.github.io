@@ -172,15 +172,17 @@
 		<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
     <div class="row">
       <div class="col-sm-9">
-        <div id="mapid"></div>
+        <img src="assets/img/csonight-map.png" alt="Map-Cso-Night" style="img-responsive" />
       </div>
       <div class="col-sm-3">
-        <a href="http://www.volumesparis.org"><img src="assets/img/volumes.png"></a>
-        <p><a href="http://www.volumesparis.org">Volumes Coworking</a></p>
+        <!-- <a href="http://www.volumesparis.org"><img src="assets/img/volumes.png"></a> -->
+        <br>
+        <h3>Le Square</h3>
+        <br>
         <img src="assets/img/metroparis.png">
-        <p>Metro Line 11 - Place des fêtes <br>or Line 6bis - Botzaris</p>
-        <p>78 rue Compans<br/>75019 Paris<br/>
-        <p><a href="http://www.volumesparis.org">volumesparis.org</a></p>
+        <p>Metro Line 8 - Station: Filles du Calvaire <br>or Line 5 and 9 - Station: Oberkampf</p>
+        <p>100 rue Amelot<br/>75011 Paris<br/>
+        <!-- <p><a href="http://www.volumesparis.org">volumesparis.org</a></p> -->
       </div>
     </div>
 	</div>
@@ -214,49 +216,17 @@
 	<script src="assets/js/classie.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/main.js"></script>
-
-  <script type="text/javascript" src="assets/timelineMe/jquery/jquery.min.js"></script>
-<script type="text/javascript" src="assets/timelineMe/jquery.timelineMe.js"></script>
-<script> $('#timeline').timelineMe({
-              items: [
-                {
-                  type: 'smallItem',
-                  label: '8pm',
-                  picto: '<img src="assets/img/doormat.png"/>',
-                  shortContent: 'Meeting & schmoozing'
-                },
-                {
-                  type: 'smallItem',
-                  label: '9pm',
-                  picto: '<img src="assets/img/speaking.png" />',
-                  shortContent: '<strong>Reports :</strong> The Open Culture Foundation will announce the launch of its Civic Hack News website. ODN! will kick off the OGP Toolbox hackathon.'
-                },
-                {
-                  type: 'smallItem',
-                  label: '9:30pm',
-                  picto: '<img src="assets/img/bolt.png" />',
-                  shortContent: '<strong>Lightning talks :</strong> Innovation with a purpose : the core values of civic technologies'
-                },
-                {
-                  type: 'smallItem',
-                  label: '1O:15pm',
-                  picto: '<img src="assets/img/wine.png" />',
-                  shortContent: 'Drinks, food and music !'
-                },
-
-              ]
-            });</script>
+	<!-- <script src="assets/js/main.js"></script>
             <script>var mymap = L.map('mapid').setView([48.8680,2.3619, -0.09], 13);
 
-            L.tileLayer('https://api.mapbox.com/styles/v1/plrolle/ciuzvsdhp01et2inojwqrjzk5/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoicGxyb2xsZSIsImEiOiJjaXV6dnI3ZnkwMGF2Mm9tODdtMTZiMHluIn0.kI-HYCjKam3XGipU4Gd3lg', {
+            L.tileLayer('https://api.mapbox.com/styles/v1/virgiled/civw2hcx8000s2ko2lgl5ee20.html?title=true&access_token=pk.eyJ1IjoidmlyZ2lsZWQiLCJhIjoiY2l2dzJnOTEzMDAwODJ5cTlpdzI3eno4NSJ9.Kb4d6s5QJJJueD64hDrNWw#12.629083527693517/48.86010866536597/2.3341851078851334/0{z}/{x}/{y}?access_token=pk.eyJ1IjoicGxyb2xsZSIsImEiOiJjaXV6dnI3ZnkwMGF2Mm9tODdtMTZiMHluIn0.kI-HYCjKam3XGipU4Gd3lg', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
-    id: 'your.mapbox.project.id',
-    accessToken: 'pk.eyJ1IjoicGxyb2xsZSIsImEiOiJjaXV6dnI3ZnkwMGF2Mm9tODdtMTZiMHluIn0.kI-HYCjKam3XGipU4Gd3lg'
+    id: 'virgiled.civw2llh700022ymv8do6t6wc-411pq',
+    accessToken: 'pk.eyJ1IjoidmlyZ2lsZWQiLCJhIjoiY2l2dzJnOTEzMDAwODJ5cTlpdzI3eno4NSJ9.Kb4d6s5QJJJueD64hDrNWw'
 }).addTo(mymap);
 
-var volumes = L.marker([48.87960,2.39220]).addTo(mymap).bindPopup("<b>VOLUMES</b><br>78 rue Compans").openPopup();
+var volumes = L.marker([48.8622848,2.367604799999981]).addTo(mymap).bindPopup("<b>VOLUMES</b><br>78 rue Compans").openPopup();
     ogp = L.marker([48.86408,2.29269]).addTo(mymap) .bindPopup("<b>OGP SUMMIT</b><br>Palais d'Iéna");
 
 
