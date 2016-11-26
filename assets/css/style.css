@@ -83,6 +83,11 @@ header h1 {
   }
 }
 
+.img-responsive {
+  float: left;
+  padding: 20px;
+}
+
 #cd-timeline {
   position: relative;
   padding: 2em 0;
